@@ -67,3 +67,5 @@ public
 .contentful.json
 .env*
 !.env.example
+#remove idea files from webstorm
+.idea
