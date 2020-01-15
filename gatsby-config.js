@@ -29,6 +29,21 @@ module.exports = {
     {
       resolve: 'gatsby-source-contentful',
       options: contentfulConfig,
+    },
+    {
+      resolve: 'gatsby-plugin-prefetch-google-fonts',
+      options: {
+        fonts: [
+          {
+            family: 'Libre Baskerville',
+            variants: ['400', '700']
+          },
+          {
+            family: 'Source Sans Pro',
+            variants: ['400', '700']
+          }
+        ]
+      }
     }
   ],
 }
